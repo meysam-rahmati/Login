@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="login">
+        <div class="container">
+            <form>
+                <input type="email" placeholder="email" autofocus required class="email input"><br>
+                <input type="password" placeholder="password" required class="password input" minlength="8"><br>
+                <div class="visibility">
+                    <i class="fas fa-eye visible svg" style="display: none;"></i>
+                    <i class="fas fa-eye-slash unvisible svg" style="display: none;"></i>
+                </div>
+                <input type="submit" value="LOGIN" class="sub-btn">
+            </form>
+
+        </div>
+        <section class="more">
+            <div class="forget">
+                <a href="#">forget your password??</a>
+            </div>
+            <div class="sigin">
+                havnt any acount yet?? <span id="account"> creat account</span>
+            </div>
+        </section>
+    </section>
+    <section id="sigin">
+        <div class="container2">
+            <form>
+                <input type="text" class="Name" placeholder="First Name" required autofocus><br>
+                <input type="text" class="Name" placeholder="Last Name" required><br>
+                <input type="email" placeholder="insert your email" class="Name" required><br>
+                <input type="password" placeholder="your password" class="Name" required><br>
+                <input type="submit" class="sub-btn" value="SIGUP">
+            </form>
+            <h1 id="back">
+                <<<< 
+            </h1>
+        </div>
+
+    </section>
+    <script src="script/script1.js"></script>
+</body>
+
+</html>

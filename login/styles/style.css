@@ -1,0 +1,161 @@
+@import" reset.css";
+
+
+@font-face {
+    font-family: vazirNormal;
+    src: url('../fonts/vaizr.eot');
+    src: url('../fonts/vaizr.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/vazir.ttf') format('truetype'),
+        url('../fonts/vazir.woff') format('woff'),
+        url('../fonts/vazir.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: vazirNormal;
+    background: url(../images/vecteezy_fingerprint-identity-sensor-data-protection-system-podium_7164537.jpg);
+    background-size: cover;
+    height: 750px;
+    
+}
+
+/* login */
+.login{
+    position: fixed;
+    top: 150px;
+    right:200px;
+    transition: 0.5s;
+    text-align: center;
+}
+.container .input{
+    width: 350px;
+    padding: 10px;
+    margin: 10px 5px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid rgba(30, 117, 144,1);
+    background-color: transparent;
+    color: #fff;
+}
+.container .input:hover{
+    cursor: pointer;
+}
+
+.container .visibility{
+    position: absolute;
+    top:92px ;
+    left: 348px;
+    color: #fff;
+}
+.container .visibility .svg{
+    width: 30px;
+    position: absolute;
+    top: 15px;
+}
+.container .input:focus{
+    outline: none;
+    font-size: 23px;
+    border-bottom: 3px solid rgb(30, 117, 144);
+}
+
+.container .sub-btn{
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    font: 20px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: aqua;
+    margin-top: 20px;
+    border: none;
+}
+.container .sub-btn:hover{
+    background-color: rgb(8, 114, 114);
+    cursor: pointer;
+}
+/* MORE */
+.more{
+    margin-top: 40px;
+    padding: 10px;
+}
+
+/* FORGET */
+
+.forget a{
+text-decoration: none;
+color: #fff;
+font-size: 15px;
+}
+.forget a:hover{ 
+    color: rgb(25, 161, 215);
+}
+
+ /*SIGIN */
+ .sigin{
+    margin: 20px -36px;
+    color: #fff;
+ }
+ .sigin #account:hover{
+    color: blue;
+    cursor: pointer;
+ }
+
+
+ /* SIGIN */
+#sigin{
+    top: 160px;
+    right:-380px;
+    position: fixed;
+    transition: 0.5s;
+}
+
+#sigin .container2 .Name{
+    width: 350px;
+    padding: 10px;
+    margin: 10px 5px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid rgba(30, 117, 144,1);
+    background-color: transparent;
+    color: #fff;
+}
+#sigin .container2 .Name:hover{
+    cursor: pointer;
+}
+
+#sigin .container2 .Name:focus{
+    outline: none;
+    font-size: 23px;
+    border-bottom: 3px solid rgb(30, 117, 144);
+}
+ 
+
+.container2 .sub-btn{
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    font: 20px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: aqua;
+    margin: 20px 35px;
+    border: none;
+}
+
+.container2 .sub-btn:hover{
+    background-color: rgb(8, 114, 114);
+    cursor: pointer;
+}
+#sigin .container2 #back{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    display: inline;
+}
+#sigin .container2 #back:hover{
+    color: #ccc;
+    font-size: 25px;
+    cursor: pointer;
+}
+
